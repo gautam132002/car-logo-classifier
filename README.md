@@ -82,7 +82,7 @@ The model can classify images into 10 classes: ['Buick', 'Chery', 'Citroen', 'Ho
 
 ### Image Visualization
 
-Uncomment the following code in `logos.ipynb` to view the processed and input images:
+Uncomment the following code in `main.py` to view the processed and input images:
 
 ```python
 # Uncomment the following lines to view the processed and input images
