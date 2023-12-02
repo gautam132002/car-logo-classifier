@@ -24,18 +24,18 @@ image_path = input("Enter the path of the image: ")
 
 processed_image = preprocess_image(image_path)
 
-plt.figure(figsize=(10, 4))
+# plt.figure(figsize=(10, 4))
 
-# original Image
-plt.subplot(1, 2, 1)
-img = image.load_img(image_path)
-plt.imshow(img)
-plt.title('Original Image')
+# # original Image
+# plt.subplot(1, 2, 1)
+# img = image.load_img(image_path)
+# plt.imshow(img)
+# plt.title('Original Image')
 
-# preprocessed Image
-plt.subplot(1, 2, 2)
-plt.imshow(np.squeeze(processed_image))
-plt.title('Preprocessed Image')
+# # preprocessed Image
+# plt.subplot(1, 2, 2)
+# plt.imshow(np.squeeze(processed_image))
+# plt.title('Preprocessed Image')
 
 # plt.show()
 
